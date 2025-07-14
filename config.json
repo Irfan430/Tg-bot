@@ -1,0 +1,10 @@
+{
+  "admins": [
+    "YOUR_TELEGRAM_USER_ID"
+  ],
+  "defaultLanguage": "en",
+  "floodCooldown": 3000,
+  "maxHistoryEntries": 10,
+  "botName": "Premium Bot",
+  "version": "1.0.0"
+}
