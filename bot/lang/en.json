@@ -1,0 +1,79 @@
+{
+  "welcome": {
+    "title": "🎉 Welcome to Premium Bot!",
+    "description": "Your advanced media downloader with premium features",
+    "features": [
+      "📥 Download from YouTube, Facebook, Instagram",
+      "🎵 High-quality audio extraction",
+      "⚡ Fast processing and delivery",
+      "📊 Usage statistics and history",
+      "👑 Premium features available"
+    ],
+    "getStarted": "Use /menu to get started or /help for available commands."
+  },
+  "help": {
+    "title": "📋 Available Commands",
+    "commands": {
+      "start": "🎯 Start the bot and see welcome message",
+      "menu": "📱 Open interactive menu",
+      "help": "❓ Show this help message",
+      "ytmp3": "🎵 Download YouTube audio (Usage: /ytmp3 <link>)",
+      "ytmp4": "🎬 Download YouTube video (Usage: /ytmp4 <link>)",
+      "fb": "📘 Download Facebook video (Usage: /fb <link>)",
+      "ig": "📸 Download Instagram content (Usage: /ig <link>)",
+      "stats": "📊 View your usage statistics [Premium]",
+      "history": "📋 View your download history [Premium]"
+    },
+    "premium": {
+      "title": "👑 Premium Commands",
+      "commands": {
+        "promote": "👑 Promote user to premium [Admin only]",
+        "demote": "👥 Remove premium from user [Admin only]",
+        "broadcast": "📢 Send message to all users [Admin only]"
+      }
+    }
+  },
+  "premium": {
+    "title": "👑 Premium Features",
+    "benefits": [
+      "📈 Higher download limits (50 vs 5)",
+      "📊 Advanced usage statistics",
+      "📋 Complete download history",
+      "⚡ Priority processing",
+      "🎯 Premium support",
+      "🔄 Auto-retry failed downloads"
+    ],
+    "contact": "Contact admin to upgrade to premium membership."
+  },
+  "errors": {
+    "invalidUrl": "❌ Invalid URL provided. Please check and try again.",
+    "downloadFailed": "❌ Download failed. Please try again later.",
+    "rateLimitExceeded": "⚠️ You're sending commands too fast. Please slow down.",
+    "premiumRequired": "🔒 This feature requires premium membership.",
+    "noPermission": "❌ You don't have permission to use this command.",
+    "commandNotFound": "❌ Command not found. Use /help to see available commands.",
+    "internalError": "❌ An internal error occurred. Please try again later."
+  },
+  "success": {
+    "downloadStarted": "⏳ Download started. Please wait...",
+    "downloadComplete": "✅ Download completed successfully!",
+    "userPromoted": "👑 User has been promoted to premium.",
+    "userDemoted": "👥 Premium access has been removed from user.",
+    "broadcastSent": "📢 Broadcast message sent to all users."
+  },
+  "stats": {
+    "title": "📊 Your Statistics",
+    "totalDownloads": "📥 Total Downloads",
+    "premiumStatus": "👑 Premium Status",
+    "memberSince": "📅 Member Since",
+    "lastActivity": "🕒 Last Activity",
+    "favoriteFormat": "❤️ Favorite Format",
+    "dataUsage": "💾 Data Usage"
+  },
+  "menu": {
+    "main": "🏠 Main Menu - Choose an option:",
+    "downloads": "📥 Download Options",
+    "settings": "⚙️ Bot Settings",
+    "premium": "👑 Premium Features"
+  }
+}
